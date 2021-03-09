@@ -78,7 +78,7 @@ class scan_thread(threading.Thread):
             threadPool.task_done()
                
 if len(sys.argv) < 2:
-    errorExit("Usage: python scraper.py <proxylist.txt> [-t threads] [-l leechlist] [-s sort]") 
+    errorExit("Usage: python proxyscraper.py <proxylist.txt> [-t threads] [-l leechlist] [-s sort]") 
 
 orders = getorders()
 try:
